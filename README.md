@@ -10,16 +10,6 @@
 <h1 align = "center"> Hey! I am Shantanu <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px"></h1> 
 <h3 align="center"> I'm interested in Front-End Development, Designing and Programming. And also a bit in firebase backend. </h3>
 
-<a href="https://github.com/underoot-iota">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=underoot-iota&htitle_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
-</a> 
-<a href="https://github.com/underoot-iota">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=underoot-iota&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Shantanu's GitHub Stats" />
-</a>
-
-<img align="center" src="https://komarev.com/ghpvc/?username=underoot-iota" />
-
-
 <h3 align="center">Languages and tools I use:</h3>
 
 
