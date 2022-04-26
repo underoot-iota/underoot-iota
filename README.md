@@ -8,7 +8,7 @@
 [![Gmail Badge](https://img.shields.io/badge/GMail-informational?style=for-the-badge&logo=gmail&logoColor=white&color=379172)](mailto:karanrssb23@gmail.com) -->
 
 <h1 align = "center"> Hey! I am Shantanu <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px"></h1> 
-<h3 align="center"> I'm interested in Front-End Development, Designing and Programming. And a bit in firebase backend. </h3>
+<h3 align="center"> I'm interested in Front-End Development, Designing and Programming. And also a bit in firebase backend. </h3>
 
 
 <h3 align="center">Languages and tools I use:</h3>
@@ -29,7 +29,7 @@
 <!--   <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>   -->
 <!--   <a href="https://www.python.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>     -->
 <!--   <a href="https://sass-lang.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg" alt="sass" width="40" height="40"/> </a> -->
-<!--   <a href="https://flutter.dev/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> -->
+  <a href="https://flutter.dev/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>
 <!--   <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/> </a> -->
   <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/> </a>
 
