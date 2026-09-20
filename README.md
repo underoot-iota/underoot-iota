@@ -16,13 +16,13 @@
 
 ### About
 
-I'm a backend engineer in Bengaluru working on **payments infrastructure and distributed systems**. At **slice** I own the bill-payments backend — the Go service behind every BBPS bill in the app, carrying **1.7M+ transactions a month** — and I'm on call for it and three other services on the payments path. Go and Java over gRPC and REST, Kafka pipelines, PostgreSQL, Redis, Kubernetes and ArgoCD on AWS. Most of my time goes into making write paths correct under concurrency, keeping batch pipelines inside their window, and designing services so the next feature is a small change instead of a migration.
+I'm a backend engineer in Bengaluru working on **payments infrastructure and distributed systems**. At **slice** I own the bill-payments backend, the Go service behind every BBPS bill in the app, carrying **1.7M+ transactions a month**, and I'm on call for it and three other services on the payments path. Go and Java over gRPC and REST, Kafka pipelines, PostgreSQL, Redis, Kubernetes and ArgoCD on AWS. Most of my time goes into making write paths correct under concurrency, keeping batch pipelines inside their window, and designing services so the next feature is a small change instead of a migration.
 
-I also **build with LLM agents, not just alongside them**. I work on an agent that reviews every production deploy — it reads the metrics, the logs and the code diff and decides whether a release is doing what it claimed it would. Python, FastAPI, Temporal, Claude on AWS Bedrock. The interesting problem there isn't prompting; it's that an agent holding production credentials is reading attacker-influenceable text, so the trust boundaries matter more than the reasoning does.
+I also **build production systems with LLM agents**. I work on an agent that reviews every production deploy. It reads the metrics, the logs and the code diff and decides whether a release is doing what it claimed it would. Python, FastAPI, Temporal, Claude on AWS Bedrock. Most of the design work went into trust boundaries rather than prompts: the agent holds production credentials and reads text that users, and therefore attackers, can influence, so it is explicit about what it may act on, what it may only report, and where an injected instruction stops.
 
 I built the **Claude Code** harness my team ships through, too: a task orchestrator over explorer, planner and reviewer subagents, an in-repo knowledge base with eval suites, and MCP-backed observability skills that turn an alert into a live investigation.
 
-Before slice I **built DreamPlay's backend from the ground up at Dream11** — matchmaking, contest join, a Glicko rating system — joining when it was an idea and staying through **0 → 1.5M+ users in six months**. Earlier, an internship at **BrowserStack**. B.Tech in Information Technology, IIIT Allahabad.
+Before slice I **built DreamPlay's backend at Dream11** (matchmaking, contest join, a Glicko rating system), joining when it was an idea and staying through **zero to 1.5M+ users in six months**. Earlier, an internship at **BrowserStack**. B.Tech in Information Technology, IIIT Allahabad.
 
 ### Building on the side
 
