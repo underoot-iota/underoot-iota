@@ -1,8 +1,10 @@
-<h1 align="center">Shantanu Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="38px" alt="wave"></h1>
+<h1 align="center">Shantanu Chaudhary</h1>
 
-<p align="center"><strong>Backend engineer by day. On the side I build small apps, tools and half-finished ideas, mostly with an AI agent in the loop.</strong></p>
+<p align="center"><strong>Backend engineer — payments infrastructure, distributed systems, and LLM agents that run in production.</strong></p>
 
 <p align="center">
+  <a href="https://underoot-iota.github.io"><img src="https://img.shields.io/badge/Portfolio-underoot--iota.github.io-8e4327?style=flat-square" alt="Portfolio"></a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/underoot-iota/"><img src="https://img.shields.io/badge/LinkedIn-Shantanu%20Chaudhary-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Shantanu Chaudhary on LinkedIn"></a>
   &nbsp;
   <img src="https://img.shields.io/badge/Bengaluru,%20India-IST%20%2B05:30-2b2b2b?style=flat-square" alt="Bengaluru, India">
@@ -14,21 +16,23 @@
 
 ### About
 
-I'm a backend engineer in Bengaluru working on **payments infrastructure and distributed systems**: Go and Java services over gRPC and REST, Kafka pipelines, PostgreSQL, Redis, Kubernetes and ArgoCD on AWS. Most of my time goes into making write paths correct under concurrency, keeping batch pipelines fast, and designing services so the next feature is a small change.
+I'm a backend engineer in Bengaluru working on **payments infrastructure and distributed systems**. At **slice** I own the bill-payments backend — the Go service behind every BBPS bill in the app, carrying **1.7M+ transactions a month** — and I'm on call for it and three other services on the payments path. Go and Java over gRPC and REST, Kafka pipelines, PostgreSQL, Redis, Kubernetes and ArgoCD on AWS. Most of my time goes into making write paths correct under concurrency, keeping batch pipelines inside their window, and designing services so the next feature is a small change instead of a migration.
 
-I also build with **LLM agents**, not just alongside them: a production agent that verifies deploys by reasoning over metrics, logs and diffs, and my own **Claude Code** harness (subagents, skills, hooks, evals, an in-repo knowledge base) that I ship with daily.
+I also **build with LLM agents, not just alongside them**. I work on an agent that reviews every production deploy — it reads the metrics, the logs and the code diff and decides whether a release is doing what it claimed it would. Python, FastAPI, Temporal, Claude on AWS Bedrock. The interesting problem there isn't prompting; it's that an agent holding production credentials is reading attacker-influenceable text, so the trust boundaries matter more than the reasoning does.
 
-Currently at **slice** (fintech). Before that, **Dream11**, where I built the backend of a new real-money gaming product from its early days, and an internship at **BrowserStack**. B.Tech in Information Technology, IIIT Allahabad.
+I built the **Claude Code** harness my team ships through, too: a task orchestrator over explorer, planner and reviewer subagents, an in-repo knowledge base with eval suites, and MCP-backed observability skills that turn an alert into a live investigation.
 
-### Tinkering with
+Before slice I **built DreamPlay's backend from the ground up at Dream11** — matchmaking, contest join, a Glicko rating system — joining when it was an idea and staying through **0 → 1.5M+ users in six months**. Earlier, an internship at **BrowserStack**. B.Tech in Information Technology, IIIT Allahabad.
 
-- **Reel Reminder** — turns the "saved reels I'll never watch" pile into one daily nudge. Share a link into the app, it tags it with Claude and reminds you once a day. React Native + Expo, Supabase. *Private while I fix the Android share-sheet flow.*
+### Building on the side
+
+- **Digital Kanha** — a Godot 4 Android companion app, built solo: a manifest-driven 2D cutout character assembled at runtime, a headless-tested time and save simulation with versioned migrations, and a JSON content pipeline validated against schema. *Private while the art pipeline settles.*
+- **Reel Reminder** — turns the "saved reels I'll never watch" pile into one daily nudge. Share a link from any app, it pulls metadata, tags it with an LLM, and reminds you once a day. React Native + Expo on Supabase — Postgres with RLS, Edge Functions, pg_cron. *Private while I make the Android share-sheet patches durable.*
 - **[iotaCut](https://github.com/underoot-iota/iotaCut)** — poking at an open-source CapCut replacement with MCP support.
-- **My Claude Code setup** — a task orchestrator over explorer, planner and reviewer subagents, observability skills that turn an alert into a live investigation, and a hook that nags me to sync learnings back into the docs.
 
-### Older projects
+### Earlier
 
-[sql_editor](https://github.com/underoot-iota/sql_editor) — SQL editor in React + Tailwind · [TOMS_SE_Project](https://github.com/underoot-iota/TOMS_SE_Project) — Flutter app · [movie recommendations with a knowledge graph](https://github.com/underoot-iota/movie_recommendation_system_with_knowledge_graph) — Python · [Bhawani Steels](https://underoot-iota.github.io/Bhawani-Steels/) — a real shop's website · plus a graveyard of Vue tutorials and landing pages from college.
+[sql_editor](https://github.com/underoot-iota/sql_editor) — a browser-based SQL editor · [movie recommendations with a knowledge graph](https://github.com/underoot-iota/movie_recommendation_system_with_knowledge_graph) — Python · [TOMS](https://github.com/underoot-iota/TOMS_SE_Project) — a Flutter/Firebase IoT app · [Sparsh 2024](https://sparsh2024.vercel.app) — my college fest's site · plus marketing sites for a couple of real businesses. Useful groundwork, from before the backend work.
 
 ### Stack
 
@@ -36,7 +40,7 @@ Currently at **slice** (fintech). Before that, **Dream11**, where I built the ba
   <img src="https://skillicons.dev/icons?i=go,java,python,ts,react,postgres,redis,kafka,aws,docker,kubernetes,git&perline=6" alt="Go, Java, Python, TypeScript, React, PostgreSQL, Redis, Kafka, AWS, Docker, Kubernetes, Git">
 </p>
 
-<p align="center"><sub>Go · Java · Python · TypeScript/React · gRPC · Kafka · PostgreSQL · Redis · Temporal · AWS · Docker · Kubernetes · ArgoCD · Claude Code · Cursor</sub></p>
+<p align="center"><sub>Go · Java · Python · TypeScript/React · gRPC · Kafka · PostgreSQL · Redis · Temporal · Elasticsearch · AWS · Docker · Kubernetes · ArgoCD · Grafana · LLM agents · Claude Code · MCP · Langfuse · AWS Bedrock</sub></p>
 
 ### Away from the keyboard
 
