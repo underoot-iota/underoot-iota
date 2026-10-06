@@ -27,7 +27,7 @@ Before slice I **built DreamPlay's backend at Dream11** (matchmaking, contest jo
 ### Building on the side
 
 - **Digital Kanha** — a Godot 4 Android companion app, built solo: a manifest-driven 2D cutout character assembled at runtime, a headless-tested time and save simulation with versioned migrations, and a JSON content pipeline validated against schema. *Private while the art pipeline settles.*
-- **Reel Reminder** — turns the "saved reels I'll never watch" pile into one daily nudge. Share a link from any app, it pulls metadata, tags it with an LLM, and reminds you once a day. React Native + Expo on Supabase — Postgres with RLS, Edge Functions, pg_cron. *Private while I make the Android share-sheet patches durable.*
+- **Reel Reminder** — a home for the places and recipes you save from reels. Share a reel in and a pipeline on Supabase Edge Functions pulls out what's inside: one fetcher per platform, Gemini on Vertex AI under a strict JSON schema, an evidence check that drops any item whose name isn't quoted in the post, and Google Places matching, behind a background queue with retries. React Native + Expo, TypeScript, Postgres with RLS. *Building; private until the MVP ships.*
 - **[iotaCut](https://github.com/underoot-iota/iotaCut)** — poking at an open-source CapCut replacement with MCP support.
 
 ### Earlier
